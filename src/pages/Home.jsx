@@ -5,7 +5,9 @@ export const Home = () => {
   return (
     <div>
         <Navbar />
-        <p>Home</p>      
+        <h1 className="text-3xl font-bold underline">
+          Hello world!
+        </h1>
     </div>
   )
 }
