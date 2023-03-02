@@ -8,9 +8,9 @@ export const Navbar = () => {
     <div className="sticky top-0 transition-all text-slate-600 font-poppins flex flex-row h-28 w-full items-center justify-between px-20">
       <div className="">Logo</div>
       <div className="flex flex-row justify-between gap-16">
-        <div className="text-lg items-center flex flex-row gap-16">
+        <div className="text-lg items-center flex flex-row gap-16 flex-nowrap">
           <Link className="" to="/">Home</Link>
-          <Link to="/">About <FontAwesomeIcon className="text-red-500" icon={faAngleDown} /></Link>
+          <Link className="flex flex-nowrap items-center gap-2" to="/">About <FontAwesomeIcon className="text-red-500" icon={faAngleDown} /></Link>
           <Link to="/">Awards</Link>
           <Link to="/">Competitions</Link>
        
