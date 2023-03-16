@@ -1,0 +1,12 @@
+
+
+.contact {
+    text-align: center;
+    transition: 1s;
+}
+.contact:hover {
+    transition: 1s;
+    background-color: red;
+    width: 10em;
+    height: 3em;
+}
